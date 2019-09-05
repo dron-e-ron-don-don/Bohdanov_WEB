@@ -1,0 +1,14 @@
+git branch pz_1_3_1
+git checkout pz_1_3_1
+#*creating and filling previous file*
+git add *
+git commit -m "Filling text file in branch"
+#*filling previous file*
+git add *
+git commit -m "Filling text file in branch"
+git checkout master
+git merge pz_1_3_1
+git branch -D pz_1_3_1
+git push
+git branch Developer
+git checkout Developer
