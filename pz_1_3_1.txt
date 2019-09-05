@@ -1,1 +1,9 @@
 git clone https://github.com/dron-e-ron-don-don/Bohdanov_WEB.git
+cd Bohdanov_WEB
+git add *
+git commit -m "First commit"
+git add *
+git commit -m "Second commit"
+git push
+git branch pz_1_3_1
+git checkout pz_1_3_1
